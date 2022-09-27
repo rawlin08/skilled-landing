@@ -2,6 +2,8 @@
 
 html {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400
 }
 
 *, ::before, ::after {
@@ -31,7 +33,6 @@ header {
 .logo {
     color: #13183F;
     font-size: 28px;
-    font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
@@ -41,7 +42,6 @@ header {
     border-radius: 28px;
     border: none;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
     padding: 15px 30px;
 }
 
@@ -50,14 +50,13 @@ h1 {
     font-size: 40px;
     line-height: 47px;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .sub {
     color: #83869A;
     font-size: 16px;
     line-height: 26px;
-    font-family: 'Open Sans', sans-serif;
     margin: 24px 0;
 }
 
@@ -65,7 +64,6 @@ h1 {
     height: 56px;
     width: 167px;
     color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     border: none;
     border-radius: 31.5px;
@@ -82,7 +80,6 @@ picture {
 
 .check {
     color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     border-radius: 10px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -116,19 +113,16 @@ picture {
 h2 {
     font-size: 20px;
     color: #13183F;
-    font-family: 'Open Sans', sans-serif;
     margin: 24px 0 16px 0;
 }
 
 .ctxt {
     font-size: 16px;
     color: #83869A;
-    font-family: 'Open Sans', sans-serif;
     line-height: 26px;
 }
 
 .cstart {
-    font-family: 'Open Sans', sans-serif;
     color: #F74780;
     border: none;
     background: none;
@@ -146,7 +140,6 @@ footer {
 }
 
 .logofoot {
-    font-family: 'Open Sans', sans-serif;
     font-size: 28px;
     color: #FFFFFF;
     margin: 0;
@@ -156,7 +149,6 @@ footer {
     border-radius: 28px;
     background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
     border: none;
-    font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     font-size: 16px;
     padding: 15px 30px;
@@ -178,8 +170,13 @@ footer {
     }
 
     .courses {
+        display: flex;
         margin: 100px 0 0 0;
         padding: 0 40px 86px 40px;
+    }
+
+    .course {
+        
     }
 
     footer {
@@ -195,10 +192,14 @@ footer {
     }
 
     .maintext {
-        margin: 0 0 0 165px;
+        margin: 0 275px 0 165px;
     }
 
     .courses {
         padding: 0 165px 140px 165px;
+    }
+
+    .logo {
+        font-weight: 700;
     }
 }
