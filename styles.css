@@ -159,7 +159,7 @@ footer {
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     font-size: 16px;
-    padding: 11px 24px;
+    padding: 15px 30px;
 }
 
 /* Tablet Section */
@@ -170,22 +170,35 @@ footer {
     }
 
     header {
-        margin: 24px 39px 38px 39px;
+        margin: 24px 40px 100px 40px;
     }
     
     .maintext {
-        margin: 0px 16px;
+        margin: 0 39px;
     }
 
     .courses {
-        display: flex;
-        max-width: 800px;
+        margin: 100px 0 0 0;
+        padding: 0 40px 86px 40px;
+    }
+
+    footer {
+        padding: 36px 40px;
+    }
 }
 
 /* Desktop Section */
 
 @media screen and (min-width: 1200px) {
-    .container {
-       display: flex;
+    header {
+        margin: 40px 165px 185px 165px;
+    }
+
+    .maintext {
+        margin: 0 0 0 165px;
+    }
+
+    .courses {
+        padding: 0 165px 140px 165px;
     }
 }
